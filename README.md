@@ -36,7 +36,8 @@ Hi! Geeks This is Laravel default setup using PHP 7.4 version using docker.
 
   docker exec <laravel_container_id> php artisan migrate
 
-  docker exec <mysql_container_id>
+  docker exec -it <mysql_container_id> mysql -u user -p
+  # password is password 
 
   # Get all the container id following command and look for laravel laravelserver and laraveldb
 
