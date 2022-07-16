@@ -5,7 +5,7 @@ services:
     context: ./php
    image: "laravel-image"
    ports: 
-    - 80:80
+    - 1234:80
    volumes:
     - ./src:/var/www/html
     - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
