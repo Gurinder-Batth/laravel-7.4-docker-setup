@@ -24,7 +24,7 @@ Hi! Geeks This is Laravel default setup using PHP 7.4 version using docker.
 ```bash
   http://127.0.0.1:1234
 
-  #Note: No need to run php artisan serve because laravel server by apache.
+  #Note: No need to run php artisan serve because laravel serve by apache.
 ```
 
 ## How to Run composer, php, artisan and mysql
