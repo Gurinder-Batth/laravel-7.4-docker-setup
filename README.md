@@ -7,14 +7,17 @@ Hi! Geeks This is Laravel default setup using PHP 7.4 version using docker.
 
 
 ```bash
+
   git clone https://github.com/Gurinder-Batth/laravel-7.4-docker-setup.git
   
-  cd laravel-7.4-docker-setup-main
+  cd laravel-7.4-docker-setup
 
   docker-compose up -d
   # Make sure you have latest version of docker compose https://github.com/docker/compose/releases
   # In this project I used  v2.6.1 of docker compose
   # This above things take time start the docker containers
+
+ docker exec <laravel_container_id> composer install
   
 ```
 
