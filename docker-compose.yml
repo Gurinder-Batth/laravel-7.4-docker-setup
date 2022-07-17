@@ -12,8 +12,8 @@ services:
     - ./src:/var/www/html
     - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
     - ./apache/ports.conf:/etc/apache2/ports.conf
-    - ./phpMyAdmin/bash/bash.sh:/var/www/phpMyAdmin/bash/bash.sh
-    - ./phpMyAdmin/src/config.inc.php:/var/www/phpMyAdmin/src/config.inc.php
+    - ./phpMyAdmin/bash.sh:/var/www/phpMyAdmin/bash/bash.sh
+    - ./phpMyAdmin/config.inc.php:/var/www/phpMyAdmin/src/config.inc.php
 
   laraveldb:
    image: mysql
