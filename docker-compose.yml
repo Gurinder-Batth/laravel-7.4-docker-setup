@@ -10,7 +10,7 @@ services:
    volumes:
     - ./src:/var/www/html
     - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
-    - ./phpMyAdmin/bash.sh:/var/www/phpMyAdmin/bash/bash.sh
+    - ./phpMyAdmin/bash/bash.sh:/var/www/phpMyAdmin/bash/bash.sh
     - ./phpMyAdmin/src:/var/www/phpMyAdmin/src/phpMyAdmin
 
   laraveldb:
