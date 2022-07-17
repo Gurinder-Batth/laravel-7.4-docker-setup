@@ -158,7 +158,7 @@ $cfg['SaveDir'] = '';
  * You can find more configuration options in the documentation
  * in the doc/ folder or at <https://docs.phpmyadmin.net/>.
  */
-
+$cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['host'] = 'laraveldb';
 $cfg['Servers'][$i]['user'] = 'user';
 $cfg['Servers'][$i]['password'] = 'password';
