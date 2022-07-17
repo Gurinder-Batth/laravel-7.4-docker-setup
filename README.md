@@ -22,6 +22,12 @@ Hi! Geeks This is Laravel default setup using PHP 7.4 version using docker.
 ```
 
 
+## How to install phpMyAdmin (Optional)
+```bash
+ docker exec <laravel_container_id> bash -c "cd ../phpMyAdmin/bash && ./bash.sh"
+ docker exec 0e bash -c "cd ../phpMyAdmin/bash && ./bash.sh"
+```
+
 ## After run open followig url in browser
 
 
