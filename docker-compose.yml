@@ -7,7 +7,7 @@ services:
    restart: unless-stopped
    ports: 
     - 1234:80 #Laravel
-    - 80:8081 #phpMyAdmin
+    - 1235:8081 #phpMyAdmin
    volumes:
     - ./src:/var/www/html
     - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
