@@ -4,6 +4,7 @@ services:
    build:
     context: ./php
    image: "laravel-image"
+   restart: unless-stopped
    ports: 
     - 1234:80 #Laravel
     - 80:8081 #phpMyAdmin
